@@ -8,6 +8,8 @@
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 100;
+    background-color: white;
 
 }
 .left-side{
@@ -94,4 +96,21 @@
 
 .right-side img {
     height: 24px;
+}
+.notifications-btn{
+    position: relative;
+}
+.no-notification{
+    position: absolute;
+    background-color:rgb(204, 0, 0);
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 13px;
+    width: 13px;
+
+    top: 0;
+    right: 0;
+
+
 }

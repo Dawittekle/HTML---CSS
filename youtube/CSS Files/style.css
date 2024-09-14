@@ -63,3 +63,31 @@
     font-size: 12px;
     margin-bottom: 3px;
 }
+
+
+@media(min-width:1200px ){
+    .main{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width:800px ) and (max-width:1200px){
+    .main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width:600px ) and (max-width:800px){
+    .main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:600px){
+    .main{
+        grid-template-columns: 1fr ;
+    }
+}
+
+
+
+

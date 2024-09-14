@@ -1,0 +1,30 @@
+.navigation{
+    width: 70px;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    font-family: roboto,arial;
+    font-size: 10px;
+    padding-top: 15px;
+}
+.navigation img{
+    width: 24px;
+}
+.navigation div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.subscribtions{
+    
+}
+.navigation p{
+    margin-top: 6px;
+}
+
